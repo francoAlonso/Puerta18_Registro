@@ -4,7 +4,7 @@ $(document).ready(function() {
   var nombreIngresado = document.getElementById("input");
   var statusIcon = document.getElementById("statusIcon");
 
-  $(statusIcon).hide();
+  //$(statusIcon).hide();
  
   $( nombreIngresado ).autocomplete({
     minLength: 4,//caracteres minimos para buscar

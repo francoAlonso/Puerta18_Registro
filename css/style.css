@@ -23,9 +23,16 @@ a{
   position: fixed;
   top: 45%;
   left: 50%;
-  width: 720px;
+  width: 730px;
   /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -45%);
+}
+
+.leDiv{
+  border-style: solid;
+  border-width: 9px;
+  background-color: rgba(217,25,107,.3);
+  border-color: rgba(217,25,107, .7);
 }
 
 #input{
@@ -36,20 +43,18 @@ a{
   font-size: 42px; 
   font-style: italic;
   color: #F4F7F7;
-  background: none;
   padding: 6px 0px 6px 20px;
-  border-style: solid;
-  border-width: 7px;
-  border-color: rgba(244,247,247,.7);
   outline: none;
+  background: none;
+  border: none;
 }
 ::-webkit-input-placeholder {
-   color: #AACFD0;
+   color: #D9E2E1;
 }
 
 #statusIcon{
-    width: 74px;
-    height: 74px;
+    width: 62px;
+    height: 62px;
     float: right;
 }
 

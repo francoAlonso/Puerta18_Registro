@@ -209,7 +209,7 @@
 .ui-menu .ui-menu-item {
 	margin: 0;
 	cursor: pointer;
-	background-color: rgba(244,247,247,.3);
+	background-color: rgb(217,25,107);
 	margin-top: 8px;
 }
 .ui-menu .ui-menu-item-wrapper {
