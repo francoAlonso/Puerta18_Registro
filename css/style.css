@@ -2,7 +2,7 @@
 
 body{
     /*background-color: #6AAFE6;*/
-    background: url("http://i.imgur.com/LZYqIYO.jpg") no-repeat center center fixed; 
+    background: url(../img/fondo.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,7 +23,7 @@ a{
   position: fixed;
   top: 45%;
   left: 50%;
-  width: 730px;
+  width: 710px;
   /* bring your own prefixes */
   transform: translate(-50%, -45%);
 }
@@ -31,8 +31,8 @@ a{
 .leDiv{
   border-style: solid;
   border-width: 9px;
-  background-color: rgba(217,25,107,.3);
-  border-color: rgba(217,25,107, .7);
+  background-color: rgba(217,25,107,.1);
+  border-color: #B20054;
 }
 
 #input{
@@ -53,24 +53,28 @@ a{
 }
 
 #statusIcon{
-    width: 62px;
-    height: 62px;
+    width: 50px;
+    height: 50px;
     float: right;
+    margin-top: 12px;
+    margin-right: 8px;
 }
 
 .estado{ /*este es valor conectado del usuario*/
     float: right;
 }
 .entrar{ 
-    color: green;
+    color: #26FF00;
 }
 .salir{
-    color: red;
+    color: #FF2400;
 }
 /*----------*/
 .ui-widget-content { /*Propiedades del <ul>*/
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
+
+
 
 
