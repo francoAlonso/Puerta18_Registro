@@ -24,7 +24,7 @@ $(document).ready(function() {
     response: function(event, ui) {
       // ui.content is the array that's about to be sent to the response callback.
       if (!ui.content.length) {
-        informStatus("no existe", "D91967");
+        informStatus("No existe", "D91967");
       }
       $(statusIcon).hide();
     },
@@ -61,23 +61,22 @@ $(document).ready(function() {
   function selectStatusIcon(estado){
     clearTimeout(timeOut);
     switch(estado) {
-      case "checkIn": 
-        statusIcon.src = ("img/" + estado + ".gif"); 
-        $(statusIcon).show();
-        timeOut = setInterval(function(){
-          $(statusIcon).hide();
-        }, 500);
-        break;
-      case "cross":
+      case "gambini":
         statusIcon.src = ("img/" + estado + ".png"); 
         $(statusIcon).show();
-        timeOut = setInterval(function(){
-          $(statusIcon).hide();
-        }, 500);
         break;
+
       case "loading":
         statusIcon.src = ("img/" + estado + ".gif"); 
         $(statusIcon).show();
+        break;
+
+      default: 
+        statusIcon.src = ("img/" + estado + ".gif"); 
+        $(statusIcon).show();
+        timeOut = setInterval(function(){
+          $(statusIcon).hide();
+        }, 500);
         break;
     }
   }//selectStatusIcon
